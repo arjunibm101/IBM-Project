@@ -25,10 +25,27 @@
       font-size: 3.5em;
       margin: 50px;
       font-weight: bold;
+      position: relative;
+      width: 800px;
+      /* max-width: 1000px; */
+      /* padding: 50px; */
+      background: rgba(255, 255, 255, .65);
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+      margin: auto
   }
 
   h1, h2 {
     text-align: center;
+    position: relative;
+    background: rgba(255, 255, 255, .65);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+
+  h2 {
+    width: 400px;
+    margin: 20px auto;
   }
   
   .details{
@@ -67,12 +84,31 @@
   } 
 
 form {
+    width: 500px;
     text-align: right;
-    margin: 50px 100px;
+    margin: 50px;
+    margin-left: 750px;
+    position: relative;
+    background: rgba(255, 255, 255, .65);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
 
 footer {
     text-align: center;
-    margin: 100px;
+    margin: 120px auto;
     margin-bottom: 0px;
+    position: relative;
+    background: rgba(255, 255, 255, .65);
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    width:650px;
+}
+
+.details {
+  padding: 0px 30px;
+  /* position: relative; */
+  background: rgba(255, 255, 255, .65);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
 }
